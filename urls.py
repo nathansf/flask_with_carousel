@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template, request
 # from flask.ext.scss import Scss
-from flask.ext.assets import Environment, Bundle
+from flask_assets import Environment, Bundle
 
 from images import get_images
 import logging
@@ -11,7 +11,6 @@ app = Flask(__name__)
 
 assets = Environment(app)
 assets.url = app.static_url_path
-# assets.url = app.static_url_path
 scss = Bundle('scss/main.scss', filters='pyscss', output='css/all.css')
 assets.register('scss_all', scss)
 
