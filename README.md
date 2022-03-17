@@ -18,7 +18,8 @@ http://127.0.0.1:5000/
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-UPDATED FOR PYTHON 3.9.x	    Steve Malikoff (1944GPW)
+
+UPDATED FOR PYTHON 3.9.x
 
 ## Get repo
 C:\>cd \users\you\source\repos
