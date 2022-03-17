@@ -12,6 +12,6 @@ def get_images(start_index=0):
     ret_val = []
     for row in results:
         ret_val.append(row[0])
-    # print results
+    # print(results)
 
     return ret_val
